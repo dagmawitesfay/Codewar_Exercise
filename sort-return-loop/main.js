@@ -1,15 +1,13 @@
 function stray(numbers) {
 
-  const sorted = numbers.sort((a,b)=>a-b)
-     let unique = sorted[0]
-  for(let i=0;i<sorted.length;i++){
+  const sorted = numbers.sort((a,b)=>a - b)
    
-    if(sorted[i]!=unique)
+    if(sorted[0]!==sorted[1])
     {
-  unique = sorted[i]
+      return sorted[0] 
   }
-    }
-  return unique
+    return sorted[sorted.length - 1]
+    
   }
 
   stray([1, 1, 2])
