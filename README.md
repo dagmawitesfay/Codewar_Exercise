@@ -17,8 +17,8 @@ This repository is focused on practicing core JavaScript concepts such as:
 
 From the repository root, navigate into any challenge folder and run the file with Node.js:
 
-## cd 8kyu-mixed-Array-Sum
-## node main.js
+cd 8kyu-mixed-Array-Sum
+node main.js
 
 
 **Notes**
