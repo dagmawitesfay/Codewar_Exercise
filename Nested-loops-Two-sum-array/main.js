@@ -12,7 +12,6 @@
 
 function twoSum(numbers, target) {
   let indexArr = []
-  let newPair = []
 
   for(let i=0;i<numbers.length;i++){
       let numOne = numbers[0]
