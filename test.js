@@ -5,5 +5,5 @@ function digitalRoot(n) {
     
      number = number.toString().split("").reduce((acc,current)=>acc+Number(current),0)
     }
-  return number  
+    return number
     }
